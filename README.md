@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor ↗](https://your-solution-url.com)
-- Live Site URL: [Open on Vercel ↗](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor ↗](https://www.frontendmentor.io/solutions/results-summary-component-8ZK5eWbtZ2)
+- Live Site URL: [Open on Vercel ↗](https://results-summary-component-gamma-blue.vercel.app)
 
 ## Built with
 

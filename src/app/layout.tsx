@@ -33,7 +33,9 @@ export const metadata: Metadata = {
     "TypeScript",
     "Arda Eker",
   ],
-  metadataBase: new URL("http://localhost:3000"),
+  metadataBase: new URL(
+    "https://results-summary-component-gamma-blue.vercel.app/"
+  ),
   openGraph: {
     title: "Frontend Mentor - Results summary component",
     description:
@@ -46,7 +48,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "http://localhost:3000",
+    canonical: "https://results-summary-component-gamma-blue.vercel.app",
   },
   icons: {
     icon: "/favicon.png",

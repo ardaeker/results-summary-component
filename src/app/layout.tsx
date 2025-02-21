@@ -15,9 +15,9 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Frontend Mentor - Results summary component",
+  title: "Arda Eker - Results summary component",
   description:
-    "This website is a solution for the Results summary component challenge on Frontend Mentor. It is built with Next.js and Tailwind CSS. Coded by Arda Eker.",
+    "An accessible results summary with ARIA attributes and a responsive layout.",
   authors: {
     name: "Arda Eker",
     url: "https://github.com/ardaeker",
@@ -37,10 +37,10 @@ export const metadata: Metadata = {
     "https://results-summary-component-gamma-blue.vercel.app/"
   ),
   openGraph: {
-    title: "Frontend Mentor - Results summary component",
+    title: "Arda Eker - Results summary component",
     description:
-      "This website is a solution to the Results summary component challenge on Frontend Mentor. It is built with Next.js, Tailwind CSS, and TypeScript. Coded by Arda Eker.",
-    siteName: "Frontend Mentor - Results summary component",
+      "An accessible results summary with ARIA attributes and a responsive layout.",
+    siteName: "Arda Eker - Results summary component",
     images: [
       {
         url: "open-graph-image.png",
@@ -49,9 +49,6 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://results-summary-component-gamma-blue.vercel.app",
-  },
-  icons: {
-    icon: "/favicon.png",
   },
 };
 

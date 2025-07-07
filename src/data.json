@@ -1,0 +1,30 @@
+{
+  "result": {
+    "score": 76,
+    "rating": "Great",
+    "percentile": 65,
+    "description": "You scored higher than 65% of the people who have taken these tests."
+  },
+  "summary": [
+    {
+      "category": "Reaction",
+      "score": 80,
+      "max_score": 100
+    },
+    {
+      "category": "Memory",
+      "score": 92,
+      "max_score": 100
+    },
+    {
+      "category": "Verbal",
+      "score": 61,
+      "max_score": 100
+    },
+    {
+      "category": "Visual",
+      "score": 73,
+      "max_score": 100
+    }
+  ]
+}

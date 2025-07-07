@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+:root {
+  --color-red-100: #fff6f6;
+  --color-red-500: #ff5555;
+
+  --color-blue-100: #f3f4fe;
+  --color-blue-200: #cac9ff;
+  --color-blue-500: #1125d6;
+
+  --color-slate-900: #303b59;
+
+  --color-green-100: #f2fcf9;
+  --color-green-500: #00bb8f;
+
+  --color-yellow-100: #fffbf4;
+  --color-yellow-500: #ffb21e;
+
+  --color-gradient: linear-gradient(180deg, #75f 0%, #6943ff 0.01%, #2f2ce9 100%);
+  --color-gradient-score: linear-gradient(180deg, #4d21c9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+
+  --shadow-card: 0px 30px 60px 0px rgba(61, 108, 236, 0.15);
+}
+
+@theme inline {
+  --font-hanken-grotesk: var(--font-hanken-grotesk);
+  --font-hanken-grotesk--font-feature-settings: "liga" off, "clig" off;
+
+  --color-red-100: var(--color-red-100);
+  --color-red-500: var(--color-red-500);
+
+  --color-blue-100: var(--color-blue-100);
+  --color-blue-200: var(--color-blue-200);
+  --color-blue-500: var(--color-blue-500);
+
+  --color-slate-900: var(--color-slate-900);
+
+  --color-green-100: var(--color-green-100);
+  --color-green-500: var(--color-green-500);
+
+  --color-yellow-100: var(--color-yellow-100);
+  --color-yellow-500: var(--color-yellow-500);
+
+  --color-gradient: var(--color-gradient);
+  --color-gradient-score: var(--color-gradient-score);
+
+  --shadow-card: var(--shadow-card);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-gradient-card {
+  background: var(--color-gradient);
+}
+
+.bg-gradient-score {
+  background: var(--color-gradient-score);
+}
+
+.bg-gradient-button {
+  background: var(--color-gradient);
+}
